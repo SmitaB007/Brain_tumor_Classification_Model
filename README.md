@@ -20,7 +20,7 @@
 ### - Tumor
 ### - No Tumor
 
-Screenshots :
+## Screenshots :
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4363ed7c-98b1-49a0-8edb-40549b5694ab" />
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/16f8c38b-eb17-4aed-96bd-ff5c9c9eed7c" />
