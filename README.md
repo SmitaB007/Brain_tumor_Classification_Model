@@ -22,7 +22,7 @@
 
 ## Screenshots :
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4363ed7c-98b1-49a0-8edb-40549b5694ab" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5112bb73-3cda-4967-aaf3-0e994e58ac88" />
 
-<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/16f8c38b-eb17-4aed-96bd-ff5c9c9eed7c" />
 
 
