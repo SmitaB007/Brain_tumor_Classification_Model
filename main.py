@@ -5,7 +5,7 @@ import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.metrics import accuracy_score, confusion_matrix
+from sklearn.metrics import accuracy_score, confusion_matrix,f1_score,precision_score,recall_score
 
 data = []
 labels = []
@@ -46,9 +46,11 @@ model.fit(X_train, y_train)
 
 y_pred = model.predict(X_test)
 
-# accuracy = accuracy_score(y_test, y_pred)
-joblib.dump(model, "knn_model.pkl")
-joblib.dump(scaler, "scaler.pkl")
-# print("Accuracy:", accuracy*100)
-
-# print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+accuracy = accuracy_score(y_test, y_pred)
+# joblib.dump(model, "knn_model.pkl")
+# joblib.dump(scaler, "scaler.pkl")
+print("Accuracy:", accuracy*100)
+print("\nF1 score:",f1_score(y_test,y_pred))
+print("\nPrecision score: ",precision_score(y_test,y_pred))
+print("\nRecall score: ",recall_score(y_test,y_pred))
+print("\nConfusion Matrix:\n", confusion_matrix(y_test, y_pred))
